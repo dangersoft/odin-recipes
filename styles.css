@@ -2,10 +2,22 @@
   font-family: "Courier New", monospace;
 }
 
+#home-title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 6px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
 h1 {
   background-color: black;
   color: white;
   text-align: center;
+  padding-top: 8px;
+  padding-bottom: 6px;
 }
 
 img {
@@ -23,7 +35,24 @@ img {
   width: 700px;
 }
 
-ul {
+.home-list{
+  background: #7dd9ee;
+  list-style-type: "+";
+  list-style-position: outside;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+} 
+
+.home-list-item {
+  display: inline-block;
+  background: #b5e3ed;
+  margin: 3px 3px 3px 4px;
+  padding: 3px;
+}
+
+.ingredient-list {
   list-style-type: square;
   /*list-style-position: inside;*/
   padding: 10px;
@@ -31,7 +60,7 @@ ul {
   background: #7dd9ee;
 }
 
-ul li {
+.ingredient-item {
   background: #b5e3ed;
   /*padding: 3px;*/
   margin: 5px;
